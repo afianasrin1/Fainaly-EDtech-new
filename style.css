@@ -1,0 +1,108 @@
+/* <!-- font awesome import Link --> */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style start */
+.slider img {
+  height: 85vh;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(45, 46, 46);
+  opacity: 0.7;
+}
+.view-container,
+.Registration-container {
+  display: none;
+}
+
+/* media query mobile & 767*/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .view-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .view-all-btn {
+    padding: 11px 30px;
+    background-color: rgb(76, 47, 183);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .view-all-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .Registration-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Registration-btn {
+    padding: 11px 30px;
+    background-color: rgb(73, 30, 227);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .Registration-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+/*/* // Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .view-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .view-all-btn {
+    padding: 11px 30px;
+    background-color: rgb(76, 47, 183);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .view-all-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .Registration-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Registration-btn {
+    padding: 11px 30px;
+    background-color: rgb(73, 30, 227);
+    text-align: center;
+    border-radius: 7px;
+  }
+  .Registration-btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+}

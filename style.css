@@ -61,10 +61,6 @@ body {
     text-align: center;
     border-radius: 7px;
   }
-  .Registration-btn a {
-    text-decoration: none;
-    color: #fff;
-  }
 }
 
 /*/* // Medium devices (tablets) */
@@ -100,9 +96,5 @@ body {
     background-color: rgb(73, 30, 227);
     text-align: center;
     border-radius: 7px;
-  }
-  .Registration-btn a {
-    text-decoration: none;
-    color: #fff;
   }
 }
